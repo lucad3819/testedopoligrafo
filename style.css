@@ -1,0 +1,132 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e8eef5;
+    color: #222;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+.jogo {
+    background-color: #fff;
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.12);
+}
+
+h1 {
+    color: #263c60;
+    margin-top: 8px;
+    margin-bottom: 14px;
+}
+
+p {
+    margin-bottom: 16px;
+}
+
+.cenario {
+    margin-top: 20px;
+}
+
+.cenario img {
+    display: block;
+    width: 100%;
+    max-width: 480px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.balao {
+    background-color: #fff3c4;
+    border: 1px solid #333;
+    border-radius: 12px;
+    padding: 10px 12px;
+    width: 65%;
+    margin: 0 auto 12px;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 1.4;
+}
+
+#numero {
+    margin-top: 12px;
+    margin-bottom: 18px;
+    font-size: 15px;
+}
+
+select {
+    padding: 10px;
+    width: 220px;
+    max-width: 100%;
+    border: 1px solid #888;
+    border-radius: 6px;
+    background-color: white;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+button {
+    padding: 10px 17px;
+    margin: 8px 4px;
+    background-color: #263c60;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4169a1;
+}
+
+button:active {
+    background-color: #1c2e4b;
+}
+
+#resultado {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #263c60;
+}
+
+#reiniciar {
+    display: none;
+    background-color: #35834b;
+}
+
+#reiniciar:hover {
+    background-color: #28663a;
+}
+
+@media (max-width: 480px) {
+    body {
+        padding: 10px;
+    }
+
+    .jogo {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    .balao {
+        width: 85%;
+        box-sizing: border-box;
+        font-size: 14px;
+    }
+
+    select {
+        width: 100%;
+        max-width: 220px;
+    }
+
+    button {
+        padding: 10px 14px;
+    }
+}
